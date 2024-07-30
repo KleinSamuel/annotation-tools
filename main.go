@@ -1,10 +1,10 @@
-package main
+package annotation_tools
 
 import (
 	"fmt"
-	"github.com/kleinsamuel/annotation-tools/pkg"
+	"github.com/kleinsamuel/annotation-tools/pkg/expfunc"
 )
 
 func main() {
-	fmt.Println(pkg.ExportedMain())
+	fmt.Println(expfunc.ExportedMain())
 }
