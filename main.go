@@ -1,10 +1,7 @@
 package annotation_tools
 
-import (
-	"fmt"
-	"github.com/kleinsamuel/annotation-tools/pkg/expfunc"
-)
+import "fmt"
 
-func main() {
-	fmt.Println(expfunc.ExportedMain())
+func Main() {
+	fmt.Println("Hello, World!")
 }
